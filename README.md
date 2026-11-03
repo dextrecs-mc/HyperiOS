@@ -1,274 +1,272 @@
-<h1 align="center">《挑战全站最强HyperOS高仿iOS，真像素级还原》</h1>
+<h1 align="center">"Challenging the Strongest HyperOS iOS Emulation on the Entire Site — True Pixel-Level Restoration"</h1>
 
 <p align="center">
   <img src="./images/cover.jpg" width="90%">
 </p>
 
-# 前言
+# Preface
 
 > [!IMPORTANT]
->  本图文测试、对比、制作总耗时两个月，选取汇总了我认为目前模仿最像的高仿模块，为一期高质量更新。
+>  This illustrated guide's testing, comparison, and production took two months in total. I have selected and aggregated the iOS-emulation modules I believe currently imitate iOS most closely, making this a high-quality update.
 >
-> 再次说明，本图文仅追求在使用较少的模块下，实现效果尽可能好的高仿。为实现高仿效果，有些地方还可能会做一些不适合日用的美化，请自行取舍。
+> Once again: this guide only aims to achieve the best possible emulation effect while using fewer modules. To achieve the emulation effect, some places may include beautifications unsuitable for daily use — please decide for yourself what to keep.
 
 ```
-• 测试机型：Xiaomi 12X
-• 分辨率：2400 x 1080
-• 系统版本：OS 1.0.3.0.UMACNXM By S.Team ColdCat | Android 14
-• ROOT管理器：Kitsune Mask_26.4-kitsune-2
-• 主题壁纸版本：4.2.2.6（官方）
+• Test device: Xiaomi 12X
+• Resolution: 2400 x 1080
+• System version: OS 1.0.3.0.UMACNXM By S.Team ColdCat | Android 14
+• ROOT manager: Kitsune Mask_26.4-kitsune-2
+• Theme & Wallpaper version: 4.2.2.6 (Official)
 ```
 
 > [!NOTE]
-> 说明：以下设置的具体参数都是基于以上环境，具体请按实际情况进行调整。
+> Note: The specific parameters for the settings below are all based on the environment above; please adjust according to your actual situation.
 
 > [!TIP]
-> 所有文件在文末链接中都有，图文中链接只是引用来源。
+> All files are available in the link at the end of the document; links in the guide are only references to sources.
 >
-> 模块中所有未提及或未截图部分的设置，在本图文中全部保持默认。
+> For all settings in the modules not mentioned or not screenshotted in this guide, keep them at default.
 
-# 🌸🌸🌸教程立即发车🌸🌸🌸
+# 🌸🌸🌸The tutorial starts now🌸🌸🌸
 
-## 🔴 目录&预览
-### ⭕ 目录
+## 🔴 Table of Contents & Preview
+### ⭕ Table of Contents
 
-* [一、主题](#🔴-一主题)
-* [二、锁屏](#🔴-二锁屏)
-* [三、桌面](#🔴-三桌面)
-* [四、状态栏](#🔴-四状态栏)
-* [五、通知中心](#🔴-五通知中心)
-* [六、控制中心](#🔴-六控制中心)
-* [七、其他](#🔴-七其他)
-* [八、进阶](#🔴-八进阶)
+* [1. Theme](#🔴-一主题)
+* [2. Lock Screen](#🔴-二锁屏)
+* [3. Home Screen](#🔴-三桌面)
+* [4. Status Bar](#🔴-四状态栏)
+* [5. Notification Center](#🔴-五通知中心)
+* [6. Control Center](#🔴-六控制中心)
+* [7. Others](#🔴-七其他)
+* [8. Advanced](#🔴-八进阶)
 
-### ⭕ 预览 
-- 我会按照目录中的顺序由外而内逐一介绍。
-- 📱成品演示
+### ⭕ Preview
+- I will introduce them one by one from the outside in, following the order of the table of contents.
+- 📱 Finished product demo
 
   <img src="./images/iOS_Demo_Watermark.gif" width="30%">
 
-## 🔴 一、主题
+## 🔴 1. Theme
 
-### ⭕ 1. 主题破解
-- 版本：1.8.0-for 0.07
-- 来源：原开发者已停更，来源于“主题破解”分区
+### ⭕ 1. Theme Crack
+- Version: 1.8.0-for 0.07
+- Source: The original developer has stopped updating; obtained from the "Theme Crack" section.
 
-### ⭕ 2. 主题
-- 主题：`学长iOS17 HyperOS（官方系统组件版本）`
-- 来源：https://www.coolapk.com/feed/51457930
-- 备注：尊重原作者，请在原作者后台获取。我使用的版本号及校验值见分享文件。后简称 `《学长iOS17》` 。
+### ⭕ 2. Theme
+- Theme: `学长iOS17 HyperOS (Official System Component Version)`
+- Source: https://www.coolapk.com/feed/51457930
+- Note: Respect the original author; please obtain it from the original author's backend. The version number and checksum I used are in the shared files. Hereinafter referred to as `"学长iOS17"`.
 
-### ⭕ 3. 字体
-- 字体：学长iOS16 苹方
-- 备注：`《学长iOS17》` 主题内置
+### ⭕ 3. Font
+- Font: 学长iOS16 PingFang
+- Note: Built into the `"学长iOS17"` theme.
 
-### ⭕ 4. 核心破解
-- 软件：`HyperCeiler`（后省略版本和来源）
-- 版本：2.3.135_20231231(135)_beta
-- 来源：官方 Beta Test 频道
-- 设置：`⚙️系统框架→包管理服务：[前五项全开]`
+### ⭕ 4. Core Crack
+- Software: `HyperCeiler` (version and source omitted hereinafter)
+- Version: 2.3.135_20231231(135)_beta
+- Source: Official Beta Test channel
+- Settings: `⚙️System Framework→Package Management Service: [Enable all first five items]`
 
-## 🔴 二、锁屏
+## 🔴 2. Lock Screen
 
-- 主题：`《学长iOS17》`
-- 壁纸：我的壁纸文件已分享在文末链接内。
-- 备注：由于HyperOS在第三方主题下直接应用锁屏壁纸时依旧会出问题，所以需要先将壁纸导入主题mtz文件，替换掉原有的锁屏壁纸，再应用修改后的主题。
-- 设置：
+- Theme: `"学长iOS17"`
+- Wallpaper: My wallpaper files are shared in the link at the end of the document.
+- Note: Because HyperOS still has issues when directly applying lock screen wallpapers under third-party themes, you need to first import the wallpaper into the theme's mtz file, replace the original lock screen wallpaper, and then apply the modified theme.
+- Settings:
 
   <img src="./images/2.jpg" width="50%">
 
-- 设置 [可选]：
-`⚙️系统设置→通知与状态栏→状态栏-锁屏时可下拉操作→控制中心：[开启]`
+- Settings [Optional]:
+`⚙️System Settings→Notifications & Status Bar→Status Bar - Pull-down while locked→Control Center: [Enable]`
 
-## 🔴 三、桌面
+## 🔴 3. Home Screen
 
-### ⭕ 1. 壁纸
-- 壁纸：已在 `二、锁屏` 中导入mtz文件。
+### ⭕ 1. Wallpaper
+- Wallpaper: Already imported into the mtz file in `2. Lock Screen`.
 
-### ⭕ 2. 图标
+### ⭕ 2. Icons
 
-#### ① 基础图标
-- 主题：`《学长iOS17》`
+#### ① Basic Icons
+- Theme: `"学长iOS17"`
 
-#### ② 额外图标
-- 软件：`创建快捷方式_1.17`
-- 说明：可以创建自定义样式的图标在桌面上。APP上手难度不高，步骤就不写了。
+#### ② Extra Icons
+- Software: `创建快捷方式_1.17` (Create Shortcut)
+- Description: Can create custom-styled icons on the home screen. The app is not hard to use; steps omitted.
 
-### ⭕ 3. 堆叠桌面
-- 软件：`HyperOS堆叠桌面2.2.7.1(文件夹名称居中)`
-- 来源：https://www.coolapk.com/feed/53758297
-- 备注：使用核心破解(HyperCeiler)安装。这是首个“修复切换主题时模糊丢失问题”的版本，自测可以养老。
-- 说明：我分享的文件修改了“文件夹标题居中”，具体修改过程详见我的动态 https://www.coolapk.com/feed/53836371 。觉得好用请到上方原作者帖下素质投币。
-- 设置：
+### ⭕ 3. Stacked Home Screen
+- Software: `HyperOS堆叠桌面2.2.7.1(文件夹名称居中)` (HyperOS Stacked Desktop 2.2.7.1, folder name centered)
+- Source: https://www.coolapk.com/feed/53758297
+- Note: Install using Core Crack (HyperCeiler). This is the first version that "fixes the issue of blur loss when switching themes"; tested and can be kept long-term.
+- Description: My shared file has "folder title centered" modified; see my post for the specific modification process: https://www.coolapk.com/feed/53836371. If you find it useful, please give the original author a quality coin at the post above.
+- Settings:
 
   <img src="./images/3-3.jpg" width="50%">
 
-### ⭕ 4. 桌面小组件
-- 软件：`KWGT(专业版)`；`OS小组件内测_0.1.0`
-- 来源：LITEAPKS；学长分享
-- 备注：软件记得开启自启动，并将省电策略改为无限制。
-- KWGT设置（ 2x2 & 4x2 ）：
+### ⭕ 4. Home Screen Widgets
+- Software: `KWGT (Pro)`; `OS小组件内测_0.1.0` (OS Widgets Beta 0.1.0)
+- Source: LITEAPKS; shared by 学长
+- Note: Remember to enable autostart for the software and set the battery saver policy to unrestricted.
+- KWGT settings (2x2 & 4x2):
   ```
-  ⚙️根目录→层-比例：[107]
-  ⚙️根目录→项目-OS小组件→位置-Y偏移：[0]
-  ⚙️小组件中具体数据（如天气的地区），在“根目录→全局变量”中调整。
-  ⚙️要对小组件进行二次编辑的话，请在桌面点击小组件名称。
+  ⚙️Root directory→Layer-Scale: [107]
+  ⚙️Root directory→Item-OS Widget→Position-Y Offset: [0]
+  ⚙️For specific data in the widget (e.g., weather region), adjust in "Root directory→Global Variables".
+  ⚙️To edit the widget a second time, tap the widget name on the home screen.
   ```
-- 步骤：
+- Steps:
 
   <img src="./images/3-4.jpg" width="50%">
 
-### ⭕ 5. Dock栏&布局
-- 软件：`HyperCeiler`
-- 设置：
+### ⭕ 5. Dock & Layout
+- Software: `HyperCeiler`
+- Settings:
 
   <img src="./images/3-5.jpg" width="50%">
 
-### ⭕ 6. 小白条&音量条
-- 软件：`MIUI Extra`
-- 版本：2.6.9.2-U-Pre_Hyper
-- 来源：Github
-- 设置：
+### ⭕ 6. Gesture Bar & Volume Slider
+- Software: `MIUI Extra`
+- Version: 2.6.9.2-U-Pre_Hyper
+- Source: Github
+- Settings:
 
   <img src="./images/3-6.jpg" width="50%">
 
-### ⭕ 7. 负一屏
-- 软件：`智能助理(魔改版)`；`HyperCeiler`；`KWGT(专业版)`；`OS小组件内测_0.1.0`
-- 来源：酷安@想吸猫的狗 ，原帖已无法查看。
-- 备注：智能助理防止重启还原已更改版本号；使用核心破解(HyperCeiler)安装。
-- KWGT设置：
+### ⭕ 7. Negative One Screen (App Vault)
+- Software: `智能助理(魔改版)` (Smart Assistant, modded); `HyperCeiler`; `KWGT (Pro)`; `OS小组件内测_0.1.0`
+- Source: Coolapk @想吸猫的狗; the original post is no longer viewable.
+- Note: The Smart Assistant's version number has been changed to prevent restoration on reboot; install using Core Crack (HyperCeiler).
+- KWGT settings:
   ```
-  ⚙️根目录→层-比例：[102](4x2) & [104](2x2) 
-  ⚙️根目录→项目-OS小组件→位置-Y偏移：[18]
-  ⚙️由于负一屏小组件的名称在框外无法点击，要对负一屏小组件进行二次编辑的话，请先在桌面点击任意小组件名称，然后通过左上角"≡"→"可用空间"，选择以进行编辑。
+  ⚙️Root directory→Layer-Scale: [102] (4x2) & [104] (2x2)
+  ⚙️Root directory→Item-OS Widget→Position-Y Offset: [18]
+  ⚙️Since the name of the App Vault widget is outside the frame and cannot be tapped, to edit the App Vault widget a second time, first tap any widget name on the home screen, then go through the top-left "≡"→"Available Space" and select it for editing.
   ```
-- 设置：
+- Settings:
 
   <img src="./images/3-7.jpg" width="50%">
 
-### ⭕ 8. 页面指示器改搜索框
-- ⌾说明：关于搜索框，@懶貓雜貨鋪 做了一个很详细的视频教程 https://www.coolapk.com/feed/54067260 。但是，由于我的教程中涉及了壁纸缩放动画，将搜索直接贴在壁纸上，会使切后台的动画显得比较混乱。故此处仅作收录，我个人不会日用，有需求的可以试试。
+### ⭕ 8. Page Indicator to Search Box
+- ⌾Description: Regarding the search box, @懶貓雜貨鋪 made a very detailed video tutorial: https://www.coolapk.com/feed/54067260. However, since my tutorial involves wallpaper zoom animation, sticking the search directly on the wallpaper would make the recents animation look rather messy. So this is only included here for reference; I personally won't use it daily — those who need it can try.
 
-## 🔴 四、状态栏
-主题：`《学长iOS17》`
+## 🔴 4. Status Bar
+Theme: `"学长iOS17"`
 
-### ⭕ 1. 灵动岛
-- 软件：`dynamicSpot_1.52(汉化专业版)`
-- 来源：学长分享
-- 设置：
+### ⭕ 1. Dynamic Island
+- Software: `dynamicSpot_1.52 (Chinese Pro version)`
+- Source: Shared by 学长
+- Settings:
 
   <img src="./images/4-1.jpg" width="50%">
 
-- 备注1：软件记得开启自启动，并将省电策略改为无限制。
-- 备注2：本软件已有更新版本，但新版本的永久显示有问题，故直接使用此版本即可。
+- Note 1: Remember to enable autostart for the software and set the battery saver policy to unrestricted.
+- Note 2: This software has newer versions, but the new versions have issues with permanent display, so just use this version.
 
-### ⭕ 2. 禁用灵动额头
-- 软件：`HyperCeiler`
-- 设置：见 `图四-1` 右下角。
+### ⭕ 2. Disable Dynamic Forehead
+- Software: `HyperCeiler`
+- Settings: See bottom-right of `Figure 4-1`.
 
-### ⭕ 3. 禁用系统弹窗
-- 软件：`popupControl(汉化专业版)`
-- 来源：https://www.coolapk.com/feed/52215824
-- 设置：见 `图四-1` 。
-- 备注：记得软件开启自启动，并将省电策略改为无限制。
+### ⭕ 3. Disable System Popups
+- Software: `popupControl (Chinese Pro version)`
+- Source: https://www.coolapk.com/feed/52215824
+- Settings: See `Figure 4-1`.
+- Note: Remember to enable autostart for the software and set the battery saver policy to unrestricted.
 
-### ⭕ 4. 状态栏调整
+### ⭕ 4. Status Bar Adjustment
 
-#### ① 必要系统设置
-- 设置：见 `图四-4` 左下角。
+#### ① Necessary System Settings
+- Settings: See bottom-left of `Figure 4-4`.
 
-#### ② 图标位置微调
-- 软件：`米客`（后省略版本和来源）
-- 版本：24.01.24
-- 来源：Github
-- 设置：见 `图四-4` 。
-- 说明：这一条主要是尝试控制灵动岛激活时，左右刚好各覆盖住一个完整图标 —— 换句话说就是，灵动岛激活和未激活状态下，尽量没有图标被灵动岛边缘切断，让动画没有那么突兀。同时让时钟位置稍稍靠右一点，并把勿扰的图标放到了其右侧，进一步仿iOS。（详见 `图四-4` 右上角）
-- 截图：
+#### ② Icon Position Fine-tuning
+- Software: `米客` (MiKe) (version and source omitted hereinafter)
+- Version: 24.01.24
+- Source: Github
+- Settings: See `Figure 4-4`.
+- Description: This item mainly tries to control the Dynamic Island so that when activated, it exactly covers one complete icon on each side — in other words, whether the Dynamic Island is active or not, try to avoid icons being cut off by the Dynamic Island's edge, making the animation less abrupt. At the same time, move the clock position slightly to the right, and place the Do Not Disturb icon to its right, further imitating iOS. (See top-right of `Figure 4-4`)
+- Screenshot:
 
   <img src="./images/4-4.jpg" width="50%">
 
-### ⭕ 5. 移动网络双排图标 [可选]
-- 说明：如果你是双卡用户可以尝试这一步。
-- 软件：`米客`
-- 设置：见 图四-4 左上角。
+### ⭕ 5. Dual-row Mobile Network Icons [Optional]
+- Description: If you are a dual-SIM user, you can try this step.
+- Software: `米客`
+- Settings: See top-left of Figure 4-4.
 
-## 🔴 五、通知中心
-⚠️说明：目前还没有找到针对通知中心的高仿模块，只能借用米客尽量去模仿iOS的风格了。
-- 软件：`米客`
-- 设置：
+## 🔴 5. Notification Center
+⚠️Note: Currently no emulation module specifically for the Notification Center has been found; we can only borrow 米客 to imitate the iOS style as much as possible.
+- Software: `米客`
+- Settings:
 
   <img src="./images/5.jpg" width="50%">
 
-## 🔴 六、控制中心
+## 🔴 6. Control Center
 
-### ⭕ 1. 基础
-- 软件：`系统界面组件`
-- 来源：自改 https://www.coolapk.com/feed/53817553
-- 备注：使用核心破解(HyperCeiler)安装。
-- 题外话：该版本目前确实已经不错了，但是还不是最终解，我还会进行进一步优化。感兴趣的可以关注一下，在我动态获取我二改的最新消息。
+### ⭕ 1. Basics
+- Software: `系统界面组件` (System UI Components)
+- Source: Self-modified https://www.coolapk.com/feed/53817553
+- Note: Install using Core Crack (HyperCeiler).
+- Aside: This version is indeed already good, but not the final solution; I will further optimize it. Those interested can follow my posts for the latest news on my second modification.
 
-### ⭕ 2. 细节
-- 软件：`米客`
-- 设置：
+### ⭕ 2. Details
+- Software: `米客`
+- Settings:
 
   <img src="./images/6.jpg" width="50%">
 
-- 说明：你可以在这里复制Apple字符：[]。如果你的字体在 `一、3` 中设置正确的话，该图标是可以正常显示的。
+- Description: You can copy the Apple character here: []. If your font is set correctly in `1.3`, this icon can display normally.
 
-## 🔴 七、其他
-⚠️说明：此部分包含高仿iOS的一些散装小细节。
+## 🔴 7. Others
+⚠️Note: This section contains some scattered small details of iOS emulation.
 
-### ⭕ 1. 全局音效
-- 模块：`A-这小子做了个iOS提示音（iOS 17 版）！`
-- 来源：https://www.coolapk.com/feed/49413867
-- 备注：在Magisk中刷入；刷入前请先关闭Shamiko（如果有）。重启后在系统设置的声音与触感中，将声音的前三项分别调成 `水滴` 、 `小米清新版` 和 `白日梦` ；其余的锁屏、截屏等音效可自行测试是否应用成功。
+### ⭕ 1. Global Sound Effects
+- Module: `A-这小子做了个iOS提示音（iOS 17 版）！` (A — This guy made an iOS notification sound (iOS 17 version)!)
+- Source: https://www.coolapk.com/feed/49413867
+- Note: Flash in Magisk; before flashing, please disable Shamiko (if present). After rebooting, in System Settings → Sound & Touch, set the first three sound items to `水滴` (Water Drop), `小米清新版` (Xiaomi Fresh), and `白日梦` (Daydream) respectively; for the rest (lock screen, screenshot, etc.), test on your own whether they applied successfully.
 
-### ⭕ 2. iOS音量条
-- 软件：`Volume Style(专业版)`
-- 来源：ddooo
-- 设置：
+### ⭕ 2. iOS Volume Slider
+- Software: `Volume Style (Pro)`
+- Source: ddooo
+- Settings:
 
   <img src="./images/7-2.jpg" width="50%">
 
-### ⭕ 3. iOS键盘
-- 软件：`BM iOS Keyboard_2023`
-- 来源：BMModS
-- 说明：该输入法英文部分完成度不错了，但没有适配中文。故仅展示高仿时可用，尚无法日用。
-- 备注：键盘的按键音效可以打开玩玩，模拟的还可以。
+### ⭕ 3. iOS Keyboard
+- Software: `BM iOS Keyboard_2023`
+- Source: BMModS
+- Description: The English part of this input method is fairly complete, but it doesn't support Chinese. So it can only be used for demonstration during emulation, and is not yet suitable for daily use.
+- Note: You can turn on the keyboard key sound effects for fun; the simulation is decent.
 
-## 🔴 八、进阶
-⚠️说明：此部分包含高仿iOS过程涉及代码修改的部分。小白其实只要知道，用MT管理器打开主题，里面以包名命名的文件用压缩包形式打开，完全可以胜任这一章节的修改。
+## 🔴 8. Advanced
+⚠️Note: This section includes the parts involving code modification in the iOS emulation process. Beginners only need to know that opening the theme with MT Manager and opening the files named after package names inside as archives is entirely sufficient for this chapter's modifications.
 
-### ⭕ 1. 修复主题在横屏状态下音量条下沉问题。
-- 文件位置：`./miui.systemui.plugin/theme_values.xml`
-- 删除以下变量所在行：
-  - 16行：`miui_volume_column_height`
-  - 20行：`miui_volume_column_width`
-  - 36行：`miui_volume_offset_top_collapsed`
-- `nightmode`文件夹同理
+### ⭕ 1. Fix the volume slider sinking issue in landscape mode of the theme.
+- File location: `./miui.systemui.plugin/theme_values.xml`
+- Delete the lines containing the following variables:
+  - Line 16: `miui_volume_column_height`
+  - Line 20: `miui_volume_column_width`
+  - Line 36: `miui_volume_offset_top_collapsed`
+- Same for the `nightmode` folder.
 
-### ⭕ 2. 解决主题在二改桌面下重启后文件夹标题错位的问题。
-- 文件位置：`./com.miui.home/theme_values.xml`
-- 资源名称：`folder_edit_text_margin_left`
-- 修改值：`0dp`
-- `nightmode`文件夹同理
+### ⭕ 2. Solve the issue of folder title misalignment after reboot under the second-modified home screen of the theme.
+- File location: `./com.miui.home/theme_values.xml`
+- Resource name: `folder_edit_text_margin_left`
+- Modified value: `0dp`
+- Same for the `nightmode` folder.
 
-# 🌸🌸🌸教程这里结束咯🌸🌸🌸
+# 🌸🌸🌸The tutorial ends here🌸🌸🌸
 
-## ⭕ 下载链接 `二选一`
+## ⭕ Download Link `Choose one`
 
-- 直接下载本仓库
+- Download this repository directly
 
-  <a href="https://github.com/MrBocchi/HyperiOS/archive/refs/heads/main.zip"><img src="./images/Repository.png" alt="仓库链接" width="50%"></a>
+  <a href="https://github.com/MrBocchi/HyperiOS/archive/refs/heads/main.zip"><img src="./images/Repository.png" alt="Repository Link" width="50%"></a>
 
-- 123云盘 `提取码:6666`
+- 123 Cloud Drive `Extraction code: 6666`
 
-  <a href="https://www.123pan.com/s/Kb4vjv-5ooJh.html"><img src="./images/123pan.png" alt="123盘链接" width="50%"></a>
+  <a href="https://www.123pan.com/s/Kb4vjv-5ooJh.html"><img src="./images/123pan.png" alt="123 Pan Link" width="50%"></a>
 
 ---
-> [!WARNING] 
-> 未经授权，禁止转载；二创请注明出处。
+> [!WARNING]
+> Unauthorized reproduction prohibited; for derivative works, please credit the source.
 >
-> 话题： #HyperOS# #高仿iOS主题# #MIUI主题# 
-
-
+> Topics: #HyperOS# #iOS Emulation Theme# #MIUI Theme#
